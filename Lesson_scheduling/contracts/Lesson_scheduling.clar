@@ -188,7 +188,6 @@
             { teacher: (get teacher lesson) }
             { balance: (- (default-to u0 (get balance (map-get? teacher-balances { teacher: (get teacher lesson) }))) (get price lesson)) }
           )
-          
           ;; Update lesson status
           (map-set lessons
             { lesson-id: lesson-id }
