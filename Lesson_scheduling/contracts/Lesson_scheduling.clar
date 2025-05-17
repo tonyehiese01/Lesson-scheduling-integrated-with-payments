@@ -144,7 +144,6 @@
     (ok true)
   )
 )
-
 ;; Mark lesson as completed (can only be done by the teacher)
 (define-public (complete-lesson (lesson-id uint))
   (let
