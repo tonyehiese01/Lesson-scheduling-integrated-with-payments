@@ -113,7 +113,6 @@
     (ok lesson-id)
   )
 )
-
 ;; Pay for a lesson
 (define-public (pay-for-lesson (lesson-id uint))
   (let
