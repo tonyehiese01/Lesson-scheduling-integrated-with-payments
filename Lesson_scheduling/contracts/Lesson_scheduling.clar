@@ -232,7 +232,6 @@
 (define-read-only (get-lesson (lesson-id uint))
   (map-get? lessons { lesson-id: lesson-id })
 )
-
 ;; Get teacher balance
 (define-read-only (get-teacher-balance (teacher principal))
   (default-to u0 (get balance (map-get? teacher-balances { teacher: teacher })))
