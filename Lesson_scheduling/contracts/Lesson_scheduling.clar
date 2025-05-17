@@ -71,7 +71,6 @@
     )
   )
 )
-
 ;; ========= PUBLIC FUNCTIONS =========
 
 ;; Initialize a new teacher in the system
